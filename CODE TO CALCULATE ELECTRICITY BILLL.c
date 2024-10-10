@@ -1,9 +1,9 @@
 //program to calculate electricity bill
 /*
 program to calculate electricity bill 
-Author:Ruth William
-Date:
-Reg No. CT101/G/22113/24
+Author:Nya0si
+Date:8/10/2024
+Reg No. CT101/G/24465/24
 */
 #include<stdio.h>
 #include<math.h>
