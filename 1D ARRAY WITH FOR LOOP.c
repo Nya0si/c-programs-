@@ -7,10 +7,15 @@ Reg no:CT101/G/24465/24
 */
 #include <stdio.h>
 int main(){
-	int i,j;
-	int marks[2][3]={{40,50,60},{70,80,2}};
-	for (i=0;i=1;i<3;i++){
-		printf("marks[%d][%d]=%d\n",i,j,marks[i]);
-	}
-	return 0;
+    int i,j;
+    int marks[2][3]={{40,50,60},{70,80,2}};
+
+    for(i=0;i<2;i++){ //loop through rows
+        for (j = 0;j<3;j++){ //loop through columns
+            printf("marks[%d][%d]=%d\n",i,j,marks[i][j]);
+        }
+    }
+
+    return 0;
 }
+
